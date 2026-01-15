@@ -1,0 +1,7 @@
+subscription_id,resource_group,resource_type,resource_name,location,meter_category,cost_usd,usage_quantity,unit,tags,avg_cpu,last_30d_active_hours,attached,provisioned_size_gb,used_size_gb,avg_dtu
+sub-001,rg-prod,Microsoft.Compute/virtualMachines,vm-prod-01,westus,Virtual Machines,312.45,720,hours,env=prod;owner=team-a,3.1,18,true,0,0,0
+sub-001,rg-prod,Microsoft.Compute/disks,disk-vm-prod-01,westus,Managed Disks,48.20,720,hours,env=prod;owner=team-a,,0,false,256,14,0
+sub-001,rg-app,Microsoft.Storage/storageAccounts,stapps001,westus,Storage,97.10,2,TB,env=dev;owner=team-b,,0,true,2000,180,0
+sub-002,rg-db,Microsoft.Sql/servers/databases,sql-prod-db01,westus,SQL Database,540.00,720,hours,env=prod;owner=data,,0,true,0,0,9
+sub-002,rg-batch,Microsoft.Compute/virtualMachines,vm-batch-02,westus,Virtual Machines,224.10,450,hours,env=dev;owner=ml,6.0,380,true,0,0,0
+sub-002,rg-app,Microsoft.Compute/virtualMachines,vm-idle-03,westus,Virtual Machines,189.90,720,hours,env=dev;owner=qa,1.2,6,true,0,0,0
